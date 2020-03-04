@@ -12,11 +12,11 @@
 			"i18n"
 		]
 	},
-	"ExtensionMessagesFiles": {
-		"DonateBoxInSidebar": "DonateBoxInSidebar.i18n.php"
+	"AutoloadClasses": {
+		"DonateBoxInSidebar": "includes/DonateBoxInSidebar.php"
 	},
 	"Hooks": {
-		"SkinBuildSidebar": "DonateBoxInSidebar::efDonateBoxInSidebar"
+		"BaseTemplateToolbox": "DonateBoxInSidebar::getBox"
 	},
 	"manifest_version": 1
 }
